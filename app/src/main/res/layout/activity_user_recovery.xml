@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Account Recovery Page Heading -->
+    <TextView
+        android:id="@+id/textViewHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account Recovery Page"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" /> <!-- Space below heading -->
+
+    <!-- Form Fields -->
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name" />
+
+    <EditText
+        android:id="@+id/editTextDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth (YYYY-MM-DD)" />
+
+    <EditText
+        android:id="@+id/editTextMothersMaidenName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mother's Maiden Name" />
+
+    <EditText
+        android:id="@+id/editTextBestFriendName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Best Friend's Name" />
+
+    <EditText
+        android:id="@+id/editTextChildhoodPetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Childhood Pet's Name" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number" />
+
+    <Button
+        android:id="@+id/buttonRecover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recover Account" />
+
+</LinearLayout>
